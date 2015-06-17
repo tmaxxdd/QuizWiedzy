@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"/>
+    <style name="napis_listview">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="maly_napis">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+</resources>

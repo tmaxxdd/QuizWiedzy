@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tomek.quiz_wiedzy" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activityhistoria"
+            android:label="Historia" >
+        </activity>
+        <activity
+            android:name=".Activitybiologia"
+            android:label="Biologia" >
+        </activity>
+        <activity
+            android:name=".Activitychemia"
+            android:label="Chemia" >
+        </activity>
+        <activity
+            android:name=".Activitygeografia"
+            android:label="Geografia" >
+        </activity>
+        <activity
+            android:name=".Activitypolski"
+            android:label="Polski" >
+        </activity>
+        <activity
+            android:name=".Activitywos"
+            android:label="WOS" >
+        </activity>
+        <activity
+            android:name=".Podsumowanie_punktow"
+            android:label="Wyniki" >
+        </activity>
+        <activity
+            android:name=".Odpowiedzi"
+            android:label="Wyniki2" >
+        </activity>
+        <activity
+            android:name=".historia_wyniki"
+            android:label="historiawyniki" >
+        </activity>
+        <activity
+            android:name=".biologia_wyniki"
+            android:label="biologiawyniki" >
+        </activity>
+        <activity
+            android:name=".geografia_wyniki"
+            android:label="geografiawyniki" >
+        </activity>
+        <activity
+            android:name=".polski_wyniki"
+            android:label="polskiwyniki" >
+        </activity>
+        <activity
+            android:name=".wos_wyniki"
+            android:label="woswyniki" >
+        </activity>
+        <activity
+            android:name=".proba_punktow"
+            android:label="@string/title_activity_proba_punktow" >
+        </activity>
+        <activity
+            android:name=".Omnie"
+            android:label="@string/title_activity_omnie" >
+        </activity>
+    </application>
+
+</manifest>

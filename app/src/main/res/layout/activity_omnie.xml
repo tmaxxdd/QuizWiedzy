@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:com.github.pavlospt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.tomek.quiz_wiedzy.Omnie"
+    android:id="@+id/omnie_sv"
+    android:background="#EEEEEE">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E0E0E0">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/coder"
+            android:layout_gravity="center_horizontal"
+            android:elevation="10dp"
+            android:focusable="false"
+            android:cropToPadding="true"
+            android:translationZ="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/O_mnie"
+            android:id="@+id/textView4"
+            android:padding="16dp"
+            android:background="#FAFAFA"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="136dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Trochę o projekcie"
+            android:id="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/imageView2"
+            android:background="#3f51b5"
+            android:textColor="#e8eaf6"
+            android:gravity="left|bottom"
+            android:paddingLeft="24dp"
+            android:paddingBottom="16dp" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@mipmap/profilowe"
+            android:id="@+id/imageView9"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Kontakt można uzyskać pod adresem tomasz1999@interia.pl"
+            android:id="@+id/textView5"
+            android:padding="16dp"
+            android:background="#FAFAFA"
+            android:layout_below="@+id/textView4"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_alignEnd="@+id/textView4"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/home"
+            android:src="@drawable/home"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:layout_below="@+id/textView5"
+            android:layout_alignRight="@+id/imageView9"
+            android:layout_alignEnd="@+id/imageView9"
+            android:layout_marginBottom="16dp" />
+
+    </RelativeLayout>
+
+    </ScrollView>

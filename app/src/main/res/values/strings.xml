@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quiz Wiedzy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="przedmioty">
+        <item>historia</item>
+        <item>biologia</item>
+        <item>chemia</item>
+        <item>geografia</item>
+        <item>polski</item>
+        <item>wos</item>
+        <item>O mnie</item>
+    </string-array>
+
+    <string name="dobra_odpowiedz">To jest poprawna odpowiedż !</string>
+    <string name="zla_odpowiedz">To niestety nie jest prawidłowa odpowiedź :(</string>
+
+    HISTORIA
+    <string name="rozbior_polski">W którym roku doszło do pierwszego rozbioru Polski ?</string>
+    <string name="tablice_napoleona">Co ważnego dla języka znalazł Napoleon podczas ekspedycji w Egipcie ?</string>
+    <string name="stronnictwa_polskie">Które stronnictwo na Sejmie Wielkim sprzeciwiało się reformom kraju ?</string>
+    <string name="pismo_wezelkowe">Jak nazywało się pismo wykorzystywane przez Inków ?</string>
+    <string name="krol_elekcyjny">Kto był pierwszym elekcyjnym królem Polski ?</string>
+    <string name="powstanie">Jakie stowarzyszenie zapoczątkowało Powstanie listopadowe ?</string>
+    <string name="politeista">Politeista wierzy w</string>
+    <string name="mistrz">Kto był wielkim mistrzem zakonu krzyżackiego ?</string>
+    <string name ="stonehenge">Gdzie znajduje się słynne Stonehenge ?</string>
+    <string name="unia">Z jakim krajem Polska zawiązała unię personalną ?</string>
+    <string name="nihil">Z którego roku pochodzi przywilej, który możemy tłumaczyć na nic nowego ?</string>
+    <string name="fenicjanie">Kto stworzył pierwszy alfabet ?</string>
+    <string name="slonce">Jaki starożytny lud oddawał cześć Ra ?</string>
+    <string name="republika">Jakie zgromadzenie zwoływali konsulowie w starożytnym Rzymie ?</string>
+    <string name="chrzest">W którym roku odbył się chrzest Polski ?</string>
+    <string name="skrzynia">Bogato zdobiona skrzynia z czasów sumeryjskich</string>
+    <string name="ostroleka">Ostateczna bitwa powstania listopadowego rozegrała się pod </string>
+    <string name="diaz">Kto pierwszy dopłynął do Przylądka Burz ?</string>
+    <string name="uniwersytet">Kto założył uniwersytet Jagielloński ?</string>
+    <string name="hold_pruski">W którym roku doszło do hołdu pruskiego ?</string>
+    BIOLOGIA
+    <string name="mitoza">Mitoza jest ?</string>
+    <string name="dna">Gdzie znajduje się DNA w komórce ?</string>
+    <string name="komorka">Czego nie posiada komórka zwierzęca ?</string>
+    <string name="patau">Zespół Patau jest chorobą </string>
+    <string name="uklad_nerwowy">Co nie jest elementem centralnego układu nerwowego ?</string>
+    <string name="ewolucja">Ojcem teorii ewolucji jest</string>
+    <string name="hemoglobina">Co jest głównym składnikiem hemoglobiny ?</string>
+    <string name="budulec">Co jest najważniejszym budulcem naszego ciała ?</string>
+    <string name="jod">Jod niezbędny jest do funkcjonowania ?</string>
+    <string name="osmoza">Jaki transport jest charakterystyczny dla wody ?</string>
+    <string name="mitochadria">Czym zajmują się mitochądria ?</string>
+    <string name="pletfal">Jakie zwierzę ma największy zakres słyszalności dzwięku ?</string>
+    <string name="prostata">Inna nazwa gruczołu krokowego ?</string>
+    <string name="insulina">Co kontroluje cukier we krwi ?</string>
+    <string name="hemofilia">Choroba powodująca upośledzenie krzepliwości krwi to</string>
+    <string name="przysadka">Najważniejszy gruczoł kontrolujący wszystkie inne </string>
+    <string name="tarczyca">Tarczyca reguluje</string>
+    <string name="grasica">Gruczoł zanikający wraz z wiekiem</string>
+    <string name="kwiatek">Męski organ płciowy w kwiatostanie to</string>
+    <string name="mutualizm">Porost jest przykładem</string>
+    CHEMIA
+    <string name="ostatnia_powloka">Jakie elementy znajdują się na ostatniej powłoce ?</string>
+    <string name="weglowodory">Do jakiej grupy zaliczamy pentan ?</string>
+    <string name="wzor">Podaj wzór wodorotlenku żelaza (III)</string>
+    <string name="fenyloftaleina">Fenyloftaleina barwi zasady na </string>
+    <string name="estr">Co powstanie po połączeniu alkoholu z kwasem karboksylowym ?</string>
+    <string name="bialko">Co ścina białko ?</string>
+    <string name="oh">Grupa OH to grupa</string>
+    <string name="wiazania">Jakie wiązania dzielimy na atomowe i spolaryzowane ?</string>
+    <string name="kwas">Co otrzymujemy działając wodą na tlenki niemetali ?</string>
+    <string name="sol">Związek chemiczny zbudowany z metalu i reszty kwasowej </string>
+    <string name="synteza">A+B--->C przedstawia reakację </string>
+    <string name="wegiel">Podstawowy element związków organicznych to</string>
+    <string name="nasycony">Ile wiązań ma związek nasycony ?</string>
+    <string name="alkin">Wzór ogólny CnH2n-2 przedstawia</string>
+    <string name="trommer">Próba Trommera jest charakterystyczna dla </string>
+    <string name="blonnik">Jakiego cukru nie trawi człowiek ?</string>
+    <string name="octowy">Jeżeli do alkoholu dostanie się powietrze to powstanie</string>
+    <string name="acetylen">Acetylen to inna nazwa</string>
+    <string name="dysocjacja">Podczas dysocjacji związek rozbijamy na </string>
+    <string name="kwas_mrowkowy">Wzór kwasu mrówkowego to </string>
+    GEOGRAFIA
+    <string name="kambodza">Na jakim kontynencie leży Kambodża ?</string>
+    <string name="ameryka">Na ile stanów podzielone są Stany Zjednoczone ?</string>
+    <string name="stolica">Stolicą Turcji jest </string>
+    <string name="jezioro">Który obiekt nie jest jeziorem ?</string>
+    <string name="wiatr">Wiatr wiejący nad morzem to </string>
+    <string name="archipelag">Zbiór małych wysepek nazywamy</string>
+    <string name="mady">Gleby powstałe w wyniku nagromadzenia się materiału przez wodę</string>
+    <string name="jugoslawia">Który kraj nie należał do Jugosławi ?</string>
+    <string name="rzeka">Najdłuższa rzeka Azji to</string>
+    <string name="australia">Kraj będący jednocześnie wyspą i kontynentem</string>
+    <string name="aralskie">Jezioro praktycznie wysuszone przez ZSSR to</string>
+    <string name="rysy">Najwyższy sczyt Polski to </string>
+    <string name="pojezierze">Największe pojezierze znajduje sie w</string>
+    <string name="kotlina">Kotlina nazwana od rzeki przez nią przepływającej to</string>
+    <string name="honsiu">Największą wyspą Japonii jest</string>
+    <string name="aconcagua">Obiekt znajdujący się na wys.6960 m.n.p.m to</string>
+    <string name="kamczatka">Kamczatka należy do</string>
+    <string name="rzeki">Ob,Lena i Jenisej leżą na obszarze</string>
+    <string name="slowenia">Jakiego kraju stolicą jest Lublana ?</string>
+    <string name="atacama">Pustynia Atacama leży w</string>
+    POLSKI
+    <string name="narracja">Narracja pierwszoosobowa to narracja</string>
+    <string name="liryczny">Kto najczęściej wypowiada się w wierszu ?</string>
+    <string name="akcent">Na którą sylabę od końca pada akcent w języku polskim ?</string>
+    <string name="omowienie">Peryfraza to inaczej ?</string>
+    <string name="krzyzacy">Kto jest autorem Krzyżaków ?</string>
+    <string name="prace">W lekturze Syzyfowe Prace opisano proces </string>
+    <string name="antyteza">Jaki środek możemy podciągnąc pod paradoks ?</string>
+    <string name="mickiewicz">W jakiej epoce żył Adam Mickiewicz ?</string>
+    <string name="zwrot">Co nie jest zwrotem apostroficznym ?</string>
+    <string name="hultaj">Człowiek prowadzący próżny styl życia to</string>
+    <string name="literatura">Literaturę dzielimy na ?</string>
+    <string name="jezioro_g">Nad jakim jeziorem działa się akcja Świtezianki ?</string>
+    <string name="gatunek">Który z gatunków opiera się na uczuciach ?</string>
+    <string name="ozywienie">Ożywienie to nadanie cech ?</string>
+    <string name="rymy">Które z podanych wyrazów nie są cechami rymów ?</string>
+    <string name="dopelnieni">Dopełnienie odpowiada na pytania ?</string>
+    <string name="zabarwienie">Słowa: morda, ochlej, wieśniak mają zabarwienie </string>
+    <string name="zdanie">Wykres ->......>- przedstawia zdanie </string>
+    <string name="zdania">Zdań nie dzielimy na ?</string>
+    <string name="podrzednie">Zauważyłem, że ostatnio zrobiłeś się wyjątkowo roztargniony -to zdanie</string>
+    WOS
+    <string name="uniaEU">W którym roku Polska weszła do UE ?</string>
+    <string name="onz">ONZ czuwa nad ?</string>
+    <string name="opec">Jaka organizacja kontroluje ropę naftową ?</string>
+    <string name="podaz">Ilość dobra oferowana w różnych cenach to</string>
+    <string name="inflacja">Spadek wartości pieniądza to</string>
+    <string name="monopol">Występowanie jednego producenta/dostawcy to ?</string>
+    <string name="caritas">CARITAS nie jest organizacją </string>
+    <string name="empatia">Zdolność odczuwania uczuć innych ludzi to</string>
+    <string name="prywatyzacja">Sprzedaż, przekazanie państwowego mienia to</string>
+    <string name="zus">Czym zajmuje się ZUS ?</string>
+    <string name="pkb">Wartość w pieniądzu wytworzona podczas roku to</string>
+    <string name="tusk">Kto wykreował obraz {zielonej wyspy} i namawiał ludzi na kredyty we frankach ?</string>
+    <string name="clo">Świadczenie nakładane na przewóz towarów przez granicę to</string>
+    <string name="ambasada"> Jak nazwya się siedziba danego państwa znajdująca się na terenie innego kraju ?</string>
+    <string name="bialorus">Jakiego kraju prezydentem jest Alaksandr Łukaszenka ?</string>
+    <string name="kaczynski">Przewodniczącym jakiej partii jest Jarosław Kaczyński ?</string>
+    <string name="liberalizm">Jaki ustrój propaguje wolność (Gender,Geje) ?</string>
+    <string name="edukacji">Joanna Kluzik-Rostkowska jest ministrem </string>
+    <string name="po">Do jakiej parti należy Radosław Sikorski zamieszany w AFERĘ TAŚMOWĄ ?</string>
+    <string name="stopa">Procent od pożyczonej sumy i mierzony w ujęciu rocznym to</string>
+
+
+
+    <string name="title_activity_pasek_zakladek">Pasek_zakladek</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_fragment">FragmentA</string>
+    <string name="title_activity_fragment_b">FragmentB</string>
+    <string name="title_activity_fragment_c">FragmentC</string>
+    <string name="title_activity_zwykle">zwykle</string>
+    <string name="title_activity_proba_punktow">proba_punktow</string>
+    <string name="title_activity_omnie">Omnie</string>
+    <string name="O_mnie">Cześć nazywam się Tomek. Obecnie korzystasz z mojej pierwszej aplikacji. Stworzyłem ją z kilku powodów, jednym z nich była chęć powtórki materiału do egzaminu. Podczas układania pytań nieźle się natrudziłem. Cały wysiłek tylko utwierdził mnie w przekonaniu, że drugi powód dlaczego ten quiz powstał, czyli żeby w przyjemny sposób ułatwić wam przejście przez najważniejsze zagadnienia poznane w gimazjum, nie poszedł na marne. Mam nadzieję, iż aplikacja będzie służyć.  </string>
+
+</resources>

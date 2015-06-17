@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:id="@+id/layout"
+        android:weightSum="1">
+
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR1"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0"
+            android:layout_weight="0.12">
+
+            <ImageView
+                android:layout_width="729dp"
+                android:layout_height="291dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/geography"
+                android:layout_gravity="center_horizontal"
+                android:elevation="10dp"
+                android:focusable="false"
+                android:cropToPadding="true"
+                android:translationZ="10dp" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kambodza"
+                android:id="@+id/nw5"
+                android:textSize="30sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Azja"
+                android:id="@+id/radio"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Afryka"
+                android:id="@+id/radio2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Ameryka płd."
+                android:id="@+id/radio3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR2"
+            android:layout_below="@+id/radioGR1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ameryka"
+                android:id="@+id/nw4"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:elevation="2dp"
+                android:textColor="#eceff1"
+                android:ellipsize="end"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Na 50"
+                android:id="@+id/radio2_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="1dp"
+                android:ellipsize="end"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Na 51"
+                android:id="@+id/radio2_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:ellipsize="end"
+                android:elevation="1dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Na 45"
+                android:id="@+id/radio2_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:ellipsize="end"
+                android:elevation="1dp"
+                android:paddingLeft="30dp"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR3"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jezioro"
+                android:elevation="6dp"
+                android:id="@+id/nowy_tekst3"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Bałchasz"
+                android:id="@+id/radio3_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Bajkał"
+                android:id="@+id/radio3_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Huang-He"
+                android:id="@+id/radio3_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR4"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:text="@string/stolica"
+                android:id="@+id/nw6"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Bukareszt"
+                android:id="@+id/radio4_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Bagdad"
+                android:id="@+id/radio4_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Ankara"
+                android:id="@+id/radio4_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR5"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wiatr"
+                android:id="@+id/nw3"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Passat"
+                android:id="@+id/radio5_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Fen"
+                android:id="@+id/radio5_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Bryza"
+                android:id="@+id/radio5_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR6"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0"
+            android:layout_weight="0.12">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/archipelag"
+                android:id="@+id/nw6_1"
+                android:textSize="30sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiordami"
+                android:id="@+id/radio6_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Archipelagiem"
+                android:id="@+id/radio6_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Zatoką"
+                android:id="@+id/radio6_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR7"
+            android:layout_below="@+id/radioGR1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mady"
+                android:id="@+id/nw7_1"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:elevation="2dp"
+                android:textColor="#eceff1"
+                android:ellipsize="end"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="mady"
+                android:id="@+id/radio7_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="1dp"
+                android:ellipsize="end"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bielice"
+                android:id="@+id/radio7_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:ellipsize="end"
+                android:elevation="1dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Czarnoziemy"
+                android:id="@+id/radio7_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:ellipsize="end"
+                android:elevation="1dp"
+                android:paddingLeft="30dp"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR8"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jugoslawia"
+                android:elevation="6dp"
+                android:id="@+id/nowy_tekst8"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Serbia"
+                android:id="@+id/radio8_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Macedonia"
+                android:id="@+id/radio8_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Węgry"
+                android:id="@+id/radio8_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR9"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rzeka"
+                android:id="@+id/nw9_1"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Ganges"
+                android:id="@+id/radio9_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Jangcy"
+                android:id="@+id/radio9_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Ob"
+                android:id="@+id/radio9_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR10"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/australia"
+                android:id="@+id/nw10_1"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Australia"
+                android:id="@+id/radio10_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Madagaskar"
+                android:id="@+id/radio10_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Antarktyda"
+                android:id="@+id/radio10_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+        </RadioGroup>
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR11"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0"
+            android:layout_weight="0.12">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aralskie"
+                android:id="@+id/nw11_1"
+                android:textSize="30sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Bałchasz"
+                android:id="@+id/radio11_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aralskie"
+                android:id="@+id/radio11_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Tajmyr"
+                android:id="@+id/radio11_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR12"
+            android:layout_below="@+id/radioGR1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rysy"
+                android:id="@+id/nw12_1"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:elevation="2dp"
+                android:textColor="#eceff1"
+                android:ellipsize="end"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Babia Góra"
+                android:id="@+id/radio12_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="1dp"
+                android:ellipsize="end"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Śnieżka"
+                android:id="@+id/radio12_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:ellipsize="end"
+                android:elevation="1dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rysy"
+                android:id="@+id/radio12_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:ellipsize="end"
+                android:elevation="1dp"
+                android:paddingLeft="30dp"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR13"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pojezierze"
+                android:elevation="6dp"
+                android:id="@+id/nowy_tekst13_1"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Rosji"
+                android:id="@+id/radio13_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Finlandi"
+                android:id="@+id/radio13_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="U.S.A"
+                android:id="@+id/radio13_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR14"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kotlina"
+                android:id="@+id/nw14_1"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Kongo"
+                android:id="@+id/radio14_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Ob"
+                android:id="@+id/radio14_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="30dp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Ganges"
+                android:id="@+id/radio14_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="30dp"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR15"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/honsiu"
+                android:id="@+id/nw15_1"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Hokaido"
+                android:id="@+id/radio15_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Kiusiu"
+                android:id="@+id/radio15_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Honsiu"
+                android:id="@+id/radio15_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp" />
+
+        </RadioGroup>
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR16"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0"
+            android:layout_weight="0.12">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aconcagua"
+                android:id="@+id/nw16_1"
+                android:textSize="30sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mount Blanc"
+                android:id="@+id/radio16_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aconcagua"
+                android:id="@+id/radio16_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Mc Kinley"
+                android:id="@+id/radio16_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR17"
+            android:layout_below="@+id/radioGR1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kamczatka"
+                android:id="@+id/nw17_1"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:elevation="2dp"
+                android:textColor="#eceff1"
+                android:ellipsize="end"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mongoli"
+                android:id="@+id/radio17_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="1dp"
+                android:ellipsize="end" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Korei"
+                android:id="@+id/radio17_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:ellipsize="end"
+                android:elevation="1dp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rosji"
+                android:id="@+id/radio17_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:ellipsize="end"
+                android:elevation="1dp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR18"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rzeki"
+                android:elevation="6dp"
+                android:id="@+id/nowy_tekst18_1"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Rosji"
+                android:id="@+id/radio18_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Ukrainy"
+                android:id="@+id/radio18_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Białorusi"
+                android:id="@+id/radio18_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR19"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/slowenia"
+                android:id="@+id/nw19_1"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Słowenii"
+                android:id="@+id/radio19_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Słowacji"
+                android:id="@+id/radio19_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Czarnogóry"
+                android:id="@+id/radio19_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGR20"
+            android:layout_below="@+id/grupa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#E0E0E0">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/atacama"
+                android:id="@+id/nw20_1"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:textColor="#eceff1"
+                android:padding="10dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Ameryce Płn."
+                android:id="@+id/radio20_1"
+                android:checked="false"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Ameryce Płd."
+                android:id="@+id/radio20_2"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Afryce"
+                android:id="@+id/radio20_3"
+                android:background="#FAFAFA"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/wynikowo"
+                android:textSize="30sp"
+                android:background="#8D6E63"
+                android:layout_margin="15dp"
+                android:elevation="2dp"
+                android:textColor="#eceff1"
+                android:ellipsize="end"
+                android:padding="10dp" />
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E0E0E0">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/home"
+                android:src="@drawable/home"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:onClick="onClick" />
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/check"
+                android:src="@drawable/check"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:layout_marginRight="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
